@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             $0.top == label.bottomAnchor + 16
             $0.leading == label.leadingAnchor
             $0.width == label.widthAnchor
-            $0.height == label.heightAnchor + 32
+            $0.height == view.heightAnchor * 0.5
         }
     }
 

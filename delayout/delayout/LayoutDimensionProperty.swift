@@ -25,8 +25,8 @@ extension LayoutDimensionProperty {
         anchor.constraint(lessThanOrEqualToConstant: constant).isActive = true
     }
     
-    func equal(to otherAnchor: Anchor, offsetBy constant: CGFloat = 0) {
-        anchor.constraint(equalTo: otherAnchor, constant: constant).isActive = true
+    func equal(to otherAnchor: Anchor, offsetBy constant: CGFloat = 0, multipliedBy multiplier: CGFloat = 1) {
+        anchor.constraint(equalTo: otherAnchor, multiplier: multiplier, constant: constant).isActive = true
     }
     
     func greaterThanOrEqual(to otherAnchor: Anchor, offsetBy constant: CGFloat = 0) {
