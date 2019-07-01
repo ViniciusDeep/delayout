@@ -10,6 +10,9 @@ import UIKit
 
 protocol LayoutDimension: LayoutAnchor {
     func constraint(equalToConstant c: CGFloat) -> NSLayoutConstraint
+    func constraint(greaterThanOrEqualToConstant c: CGFloat) -> NSLayoutConstraint
+    func constraint(lessThanOrEqualToConstant c: CGFloat) -> NSLayoutConstraint
+//    func constraint(equalTo anchor: NSLayoutDimension, multiplier m: CGFloat, constant c: CGFloat) -> NSLayoutConstraint
 }
 
 extension NSLayoutDimension: LayoutDimension {}

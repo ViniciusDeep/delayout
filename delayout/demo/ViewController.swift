@@ -24,16 +24,17 @@ class ViewController: UIViewController {
         view.addSubview(label2)
         
         label.layout {
-            $0.top.equal(to: view.topAnchor, offsetBy: 32)
-            $0.leading.equal(to: view.leadingAnchor, offsetBy: 16)
-            $0.height.equal(to: 80)
+            $0.top == view.topAnchor + 32
+            $0.leading == view.leadingAnchor + 16
+            $0.trailing == view.trailingAnchor - 16
+            $0.height == 80
         }
         
         label2.layout {
-            $0.top.equal(to: label.bottomAnchor, offsetBy: 16)
-            $0.leading.equal(to: label.leadingAnchor)
-            $0.width.equal(to: label.widthAnchor)
-            $0.height.equal(to: label.heightAnchor)
+            $0.top == label.bottomAnchor + 16
+            $0.leading == label.leadingAnchor
+            $0.width == label.widthAnchor
+            $0.height == label.heightAnchor + 32
         }
     }
 

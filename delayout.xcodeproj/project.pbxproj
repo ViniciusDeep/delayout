@@ -18,6 +18,7 @@
 		A342F26222C7C3BA00E8D426 /* LayoutAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342F25C22C7C3BA00E8D426 /* LayoutAnchor.swift */; };
 		A342F26322C7C3BA00E8D426 /* LayoutAnchorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342F25D22C7C3BA00E8D426 /* LayoutAnchorProperty.swift */; };
 		A342F26422C7C3BA00E8D426 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A342F25E22C7C3BA00E8D426 /* LayoutProxy.swift */; };
+		A365946522C9849F0055AF70 /* OperatorsOverloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365946422C9849F0055AF70 /* OperatorsOverloading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A342F25C22C7C3BA00E8D426 /* LayoutAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAnchor.swift; sourceTree = "<group>"; };
 		A342F25D22C7C3BA00E8D426 /* LayoutAnchorProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAnchorProperty.swift; sourceTree = "<group>"; };
 		A342F25E22C7C3BA00E8D426 /* LayoutProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProxy.swift; sourceTree = "<group>"; };
+		A365946422C9849F0055AF70 /* OperatorsOverloading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsOverloading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				A342F25B22C7C3BA00E8D426 /* LayoutDimensionProperty.swift */,
 				A342F25E22C7C3BA00E8D426 /* LayoutProxy.swift */,
 				A342F25A22C7C3BA00E8D426 /* UIView+layout.swift */,
+				A365946422C9849F0055AF70 /* OperatorsOverloading.swift */,
 			);
 			path = delayout;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				A342F24922C7C37600E8D426 /* ViewController.swift in Sources */,
 				A342F26122C7C3BA00E8D426 /* LayoutDimensionProperty.swift in Sources */,
 				A342F25F22C7C3BA00E8D426 /* LayoutDimension.swift in Sources */,
+				A365946522C9849F0055AF70 /* OperatorsOverloading.swift in Sources */,
 				A342F26422C7C3BA00E8D426 /* LayoutProxy.swift in Sources */,
 				A342F26222C7C3BA00E8D426 /* LayoutAnchor.swift in Sources */,
 				A342F24722C7C37600E8D426 /* AppDelegate.swift in Sources */,
