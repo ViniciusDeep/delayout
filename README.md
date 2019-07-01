@@ -1,9 +1,9 @@
 # Delayout
-> An(other 🤷🏻‍♂️) AutoLayout DSL to make constraints more quickly and with less verbosity.
+`An(other 🤷🏻‍♂️) AutoLayout DSL to make constraints more quickly and with less verbosity. `
 
 This is a project with the objective to learn more about iOS AutoLayout and make a tool in order to facilitate making constraints using a Domain Specifc Language (DSL).
 
-This project it's based on **Swift by Sundell** article [Building DSLs in Swift](https://www.swiftbysundell.com/posts/building-dsls-in-swift). Feedbacks and suggestions are welcome.
+This project it's based on **Swift by Sundell** article [Building DSLs in Swift](https://www.swiftbysundell.com/posts/building-dsls-in-swift).
 
 ## How it works?
 In this first version I kept it simple just by encapsulating some AutoLayout methods to provide a simpler API.
@@ -39,4 +39,4 @@ label.layout {
 ```
 
 
-The idea is to improve this project more and more and launch it as a Swift Package soon.
+The idea is to improve this project more and more and launch it as a Swift Package soon so feedbacks and suggestions are welcome 😎👍🏻.
