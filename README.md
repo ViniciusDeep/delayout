@@ -1,4 +1,6 @@
 # Delayout
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+
 `An(other 🤷🏻‍♂️) AutoLayout DSL to make constraints more quickly and with less verbosity. `
 
 This is a project with the objective to learn more about iOS AutoLayout and make a tool in order to facilitate making constraints using a Domain Specifc Language (DSL).
@@ -40,3 +42,6 @@ label.layout {
 
 
 The idea is to improve this project more and more and launch it as a Swift Package soon so feedbacks and suggestions are welcome 😎👍🏻.
+
+## License
+This project is under the MIT license. See [LICENSE](LICENSE) for details.
