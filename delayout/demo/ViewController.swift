@@ -21,12 +21,12 @@ class ViewController: UIViewController {
         let label2 = UILabel()
         label2.text = "Um texto legal"
         label2.backgroundColor = UIColor.gray
-        view.addSubview(label2)
+        view.addSubview(label2)                
         
         label.layout {
             $0.top == view.topAnchor + 32
             $0.leading == view.leadingAnchor + 16
-            $0.trailing == view.trailingAnchor - 16
+            $0.trailing >= view.trailingAnchor
             $0.height == 80
         }
         

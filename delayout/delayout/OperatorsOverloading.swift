@@ -40,6 +40,23 @@ func ==<A: LayoutAnchor>(lhs: LayoutAnchorProperty<A>, rhs: (A, CGFloat)) {
     lhs.equal(to: rhs.0, offsetBy: rhs.1)
 }
 
+
+func >=<A: LayoutAnchor>(lhs: LayoutAnchorProperty<A>, rhs: A) {
+    lhs.greaterThanOrEqual(to: rhs)
+}
+
+func <=<A: LayoutAnchor>(lhs: LayoutAnchorProperty<A>, rhs: A) {
+    lhs.lessThanOrEqual(to: rhs)
+}
+
+func >=<A: LayoutAnchor>(lhs: LayoutAnchorProperty<A>, rhs: (A, CGFloat)) {
+    lhs.greaterThanOrEqual(to: rhs.0, offsetBy: rhs.1)
+}
+
+func <=<A: LayoutAnchor>(lhs: LayoutAnchorProperty<A>, rhs: (A, CGFloat)) {
+    lhs.lessThanOrEqual(to: rhs.0, offsetBy: rhs.1)
+}
+
 /// Overloading for == operator when used to tell that a LayoutAnchorProperty it's equal to another.
 ///
 /// - Parameters:
