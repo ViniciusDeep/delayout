@@ -44,3 +44,4 @@ label.layout {
 The idea is to improve this project more and more and launch it as a Swift Package soon so feedbacks and suggestions are welcome 😎👍🏻.
 
 ## License
+This project is under the MIT license. See [LICENSE](LICENSE) for details.
